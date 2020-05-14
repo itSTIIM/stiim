@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
+
+    <link rel="stylesheet" href="CSS/CSS.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+       <link href="CSS/carousel.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="..\..\plantilla.html">STIIM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="..\..\plantilla.html"><img class="logo" src="images/logo.png" alt=""> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://agora.xtec.cat/ies-mediterrania-castelldefels/"> <img class="logo_medi" src="images/logo_medi.png"</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subtittle" href="#" tabindex="-1" >IT technical service</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button type="button" class="btn btn-secondary">Menu</button>
+      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split log" data-toggle="dropdown">
+      </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">INCIDÈNCIES</a>
+          <a class="dropdown-item" href="..\Quisom\Quisom.html">QUI SOM?</a>
+          <a class="dropdown-item" href="contact.html">CONTACTE</a>
+        </div>
+      </div>
+      <form class="form-inline mt-4 mt-md-0">
+        <button class="btn btn-light my-2 my-sm-0 log" type="submit"><a href="..\..\log\index.html">LOG</a></button>
+      </form>
+      <form class="form-inline mt-4 mt-md-0">
+        <button class="btn btn-light my-2 my-sm-0" type="submit"><a href="..\..\log\index.html">REGISTER</a></button>
+      </form>
+    </div>
+    </div>
+    </nav>
+    </header>
+
+    <div class="container bajo">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post">
+                        <fieldset>
+                            <h1 class="text-center header">Contactar</h1>
+
+                            <div class="form-group column">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="NOM" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group column">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="lname" name="name" type="text" placeholder="COGNOMS" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group column">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="E-MAIL" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group column">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="NUMERO DE CONTACTE" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group column">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message" name="message"
+                                    placeholder="ESCRIU EL TEU MISSATGE, DUBTE, PREGUNTA, ACLARIMENT O EL QUE REQUERIS." rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#"><img src="images/top2.png" alt=""></a></p>
+      <p> 2020 Stiim &middot; E-mail
+        <a href="https://mail.google.com/mail/u/3/?tab=wm&ogbl#inbox?compose=GTvVlcSGMhgGcJvWBZVqxkNNWtJSxGKtxfkfJlvxVQqQHbsDGsFmdRwgbZVtDtvSGdQkwlKlgzgjt">
+          sti@ins-mediterrania.cat</a>
+           &middot; Mapa
+        <a href="https://www.google.es/maps/place/Institut+Mediterr%C3%A0nia/@41.2876094,1.9724256,208m/data=!3m1!1e3!4m5!3m4!1s0x12a482c726bd1e5b:0x5ef556e5b4197908!8m2!3d41.2876497!4d1.9734998?shorturl=1">
+          <img src="images/mapa.png" alt="">
+        </a>
+      </p>
+    </footer>
+
+  </body>
+</html>
